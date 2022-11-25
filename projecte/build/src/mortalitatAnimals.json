@@ -1,0 +1,120 @@
+{
+    "especies": [
+        {
+            "nom": "Xai",
+            "cries_minim": 1,
+            "cries_maxim": 5,
+            "visibilitat": 5,
+            "velocitat": 2,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.02,
+            "cost_vida": 2.0,
+            "aliments": [ ],
+            "enemics":  [ ],
+            "terrenys": [ 1 ],
+            "imatge": "ovella.png"
+        },
+        {
+            "nom": "Llop",
+            "cries_minim": 1,
+            "cries_maxim": 5,
+            "visibilitat": 5,
+            "velocitat": 4,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.02,
+            "cost_vida": 2.0,
+            "aliments": [ ],
+            "enemics":  [ ],
+            "terrenys": [ 1 ],
+            "imatge": "llop.png"
+        },
+        {
+            "nom": "Bear",
+            "cries_minim": 1,
+            "cries_maxim": 5,
+            "visibilitat": 2,
+            "velocitat": 4,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.02,
+            "cost_vida": 2.0,
+            "aliments": [ ],
+            "enemics":  [  ],
+            "terrenys": [ 2 ],
+            "imatge": "bear.png"
+        },
+        {
+            "nom": "Yeti",
+            "cries_minim": 1,
+            "cries_maxim": 5,
+            "visibilitat": 2,
+            "velocitat": 4,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.02,
+            "cost_vida": 2.0,
+            "aliments": [ ],
+            "enemics":  [ ],
+            "terrenys": [ 2 ],
+            "imatge": "yeti.png"
+        }
+    ],
+    "animals": [
+        { "especie": "Xai", "posicio": [ 0, 0 ] },
+        { "especie": "Xai", "posicio": [ 4, 4 ] },
+        { "especie": "Llop", "posicio": [ 2, 3 ] },
+        { "especie": "Llop", "posicio": [ 4, 0 ] },
+        { "especie": "Bear", "posicio": [ 5, 9 ] },
+        { "especie": "Bear", "posicio": [ 8, 6 ] },
+        { "especie": "Yeti", "posicio": [ 9, 5 ] },
+        { "especie": "Yeti", "posicio": [ 6, 8 ] }
+    ],
+    "vegetals": [
+    ],
+    "virus": [
+    ],
+    "parasits": [
+    ],
+    "tipusTerrenys": [
+        {
+            "nom": "Terra",
+            "codi": 1,
+            "capacitat": 100,
+            "imatge": "terra.jpg"
+        },
+        {
+            "nom": "Neu",
+            "codi": 2,
+            "capacitat": 100,
+            "imatge": "neu.png"
+        }
+    ],
+    "mapa": {
+        "x": 10,
+        "y": 10,
+        "mida_bloc": 42,
+        "velocitat": 50,
+        "terrenys": [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2]
+        ]
+    }
+}

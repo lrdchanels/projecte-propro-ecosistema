@@ -1,0 +1,82 @@
+{
+    "especies": [
+        {
+            "nom": "Herba",
+            "cries_minim": 1,
+            "cries_maxim": 1,
+            "visibilitat": 2,
+            "velocitat": 0,
+            "espai_casella": 0,
+            "valor_nutritiu": 20,
+            "edat_reproduccio": 0,
+            "origen": "Vegetal",
+            "velocitat_reproduccio": 20.0,
+            "cost_vida": 0.02,
+            "aliments": [],
+            "enemics":  [],
+            "terrenys": [ 1 ],
+            "imatge": "herba.png"
+        },
+        {
+            "nom": "Placton",
+            "cries_minim": 1,
+            "cries_maxim": 1,
+            "visibilitat": 2,
+            "velocitat": 0,
+            "espai_casella": 0,
+            "valor_nutritiu": 20,
+            "edat_reproduccio": 0,
+            "origen": "Vegetal",
+            "velocitat_reproduccio": 20.0,
+            "cost_vida": 0.02,
+            "aliments": [],
+            "enemics":  [],
+            "terrenys": [ 2 ],
+            "imatge": "placton.png"
+        }
+    ],
+   "animals": [
+    ],
+    "vegetals": [
+        { "especie": "Herba", "posicio": [ 0, 0 ] },
+        { "especie": "Herba", "posicio": [ 0, 1 ] },
+        { "especie": "Placton", "posicio": [ 9, 9 ] },
+        { "especie": "Placton", "posicio": [ 8, 9 ] }
+    ],
+    "virus": [
+    ],
+    "parasits": [
+    ],
+    "tipusTerrenys": [
+        {
+            "nom": "Terra",
+            "codi": 1,
+            "capacitat": 100,
+            "imatge": "terra.jpg"
+        },
+        {
+            "nom": "Aigua",
+            "codi": 2,
+            "capacitat": 100,
+            "imatge": "aigua.png"
+        }
+    ],
+    "mapa": {
+        "x": 10,
+        "y": 10,
+        "mida_bloc": 42,
+        "velocitat": 300,
+        "terrenys": [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2],
+            [2,2,2,2,2,2,2,2,2,2]
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "especies": [
+        {
+            "nom": "Xai",
+            "cries_minim": 1,
+            "cries_maxim": 1,
+            "visibilitat": 5,
+            "velocitat": 2,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.2,
+            "cost_vida": 0.02,
+            "aliments": [ ],
+            "enemics":  [ ],
+            "terrenys": [ 1 ],
+            "imatge": "ovella.png"
+        }
+    ],
+    "animals": [
+        { "especie": "Xai", "posicio": [ 0, 0 ] }
+    ],
+    "vegetals": [
+    ],
+    "virus": [
+    ],
+    "parasits": [
+    ],
+    "tipusTerrenys": [
+        {
+            "nom": "Terra",
+            "codi": 1,
+            "capacitat": 100,
+            "imatge": "terra.jpg"
+        },
+        {
+            "nom": "Aigua",
+            "codi": 2,
+            "capacitat": 100,
+            "imatge": "aigua.png"
+        }
+    ],
+    "mapa": {
+        "x": 4,
+        "y": 4,
+        "mida_bloc": 42,
+        "velocitat": 300,
+        "terrenys": [
+            [1,1,1,1],
+            [1,2,2,1],
+            [1,2,2,1],
+            [1,1,1,1]
+        ]
+    }
+}

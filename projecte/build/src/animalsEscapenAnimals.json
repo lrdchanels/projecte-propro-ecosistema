@@ -1,0 +1,110 @@
+{
+    "especies": [
+        {
+            "nom": "Xai",
+            "cries_minim": 1,
+            "cries_maxim": 5,
+            "visibilitat": 5,
+            "velocitat": 3,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 20.0,
+            "cost_vida": 0.02,
+            "aliments": [ "Herba" ],
+            "enemics":  [ "Llop" ],
+            "terrenys": [ 1 ],
+            "imatge": "ovella.png"
+        },
+        {
+            "nom": "Llop",
+            "cries_minim": 1,
+            "cries_maxim": 1,
+            "visibilitat": 5,
+            "velocitat": 2,
+            "espai_casella": 20,
+            "valor_nutritiu": 80,
+            "edat_reproduccio": 10,
+            "origen": "Animal",
+            "velocitat_reproduccio": 0.2,
+            "cost_vida": 0.02,
+            "aliments": [ "Xai" ],
+            "enemics":  [ ],
+            "terrenys": [ 1 ],
+            "imatge": "llop.png"
+        },
+        {
+            "nom": "Herba",
+            "cries_minim": 1,
+            "cries_maxim": 1,
+            "visibilitat": 2,
+            "velocitat": 0,
+            "espai_casella": 0,
+            "valor_nutritiu": 20,
+            "edat_reproduccio": 0,
+            "origen": "Vegetal",
+            "velocitat_reproduccio": 20.0,
+            "cost_vida": 0.02,
+            "aliments": [],
+            "enemics":  [],
+            "terrenys": [ 1, 5 ],
+            "imatge": "herba.png"
+        }
+    ],
+    "animals": [
+        { "especie": "Xai", "posicio": [ 0, 0 ] },
+        { "especie": "Xai", "posicio": [ 4, 4 ] },
+        { "especie": "Llop", "posicio": [ 9, 5 ] },
+        { "especie": "Llop", "posicio": [ 2, 9 ] }
+    ],
+    "vegetals": [
+        { "especie": "Herba", "posicio": [ 0, 0 ] },
+        { "especie": "Herba", "posicio": [ 0, 1 ] },
+        { "especie": "Herba", "posicio": [ 0, 2 ] },
+        { "especie": "Herba", "posicio": [ 0, 3 ] },
+        { "especie": "Herba", "posicio": [ 1, 0 ] },
+        { "especie": "Herba", "posicio": [ 1, 1 ] },
+        { "especie": "Herba", "posicio": [ 1, 2 ] },
+        { "especie": "Herba", "posicio": [ 1, 3 ] },
+        { "especie": "Herba", "posicio": [ 2, 0 ] },
+        { "especie": "Herba", "posicio": [ 2, 1 ] },
+        { "especie": "Herba", "posicio": [ 2, 2 ] },
+        { "especie": "Herba", "posicio": [ 1, 3 ] },
+        { "especie": "Herba", "posicio": [ 2, 3 ] },
+        { "especie": "Herba", "posicio": [ 3, 3 ] },
+        { "especie": "Herba", "posicio": [ 3, 2 ] },
+        { "especie": "Herba", "posicio": [ 3, 1 ] },
+        { "especie": "Herba", "posicio": [ 3, 0 ] }
+    ],
+    "virus": [
+    ],
+    "parasits": [
+    ],
+    "tipusTerrenys": [
+        {
+            "nom": "Terra",
+            "codi": 1,
+            "capacitat": 100,
+            "imatge": "terra.jpg"
+        }
+    ],
+    "mapa": {
+        "x": 10,
+        "y": 10,
+        "mida_bloc": 42,
+        "velocitat": 300,
+        "terrenys": [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,1,1,1,1,1,1,1,1,1]
+        ]
+    }
+}
